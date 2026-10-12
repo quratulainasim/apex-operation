@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+dist/
+
+# Vercel
+.vercel/
+
+# Local environment files
+.env*
+!.env.example
+
+# Logs and debug output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Next.js generated files
+next-env.d.ts
+
+# Local agent tooling
+.agents/
+.claude/
+skills-lock.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
